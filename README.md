@@ -24,6 +24,11 @@ node index.js
 # Open the local server on
 http://localhost:4000/notes
 
-# To build the image with Docker ...
+# To build the image with Docker 
+docker build -t low-json .
+
+# Incase you run into permission error (Ubuntu 20.04)
+sudo chmod 666 /var/run/docker.sock
+
 
 ```
